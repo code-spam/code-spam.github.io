@@ -28,7 +28,7 @@ html {
 body {
     margin: 0px;
     background-color: #fffaee;
-    font-family: "selawksl";
+    font-family: "selawksl", sans-serif;
     color: #101010;
     transition-duration: 0.4s;
 }
@@ -121,7 +121,6 @@ div {
 
 .button {
     margin: auto;
-    background-image: url(assets/noise.png);
     background-color: #ccc;
     border-radius: 10px;
     padding-bottom: 10px;
@@ -129,6 +128,8 @@ div {
     text-align: center;
     max-width: 169px;
     transition-duration: 0.15s;
+    font-family: "selawksl", sans-serif;
+    border-width: 0px;
 }
 
 .button:hover {
@@ -143,8 +144,9 @@ div {
 
 header {
     text-align: center;
-    font-weight: lighter;
-    font-family: 'selawksl';   
+    font-weight: lightest;
+    font-family: 'selawksl', sans-serif;
+   
 }
 
 h1 {
